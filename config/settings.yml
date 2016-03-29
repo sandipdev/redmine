@@ -20,7 +20,7 @@
 # Settings can be defined through the application in Admin -> Settings
 
 app_title:
-  default: Redmine
+  default: OFS Redmine
 app_subtitle:
   default: Project management
 welcome_text:
@@ -95,7 +95,7 @@ force_default_language_for_anonymous:
 force_default_language_for_loggedin:
   default: 0
 host_name:
-  default: localhost:3000
+  default: https://ofsredmine.herokuapp.com/
 protocol:
   default: http
   security_notifications: 1
