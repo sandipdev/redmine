@@ -6,6 +6,7 @@ production:
   adapter: postgresql
   database: dckquljv9bn6c6
   host: ec2-54-83-52-71.compute-1.amazonaws.com
+  port: 5432
   username: jgrdbcszbfnufy
   password: "t5ANgD2PzAlm6lTrzOu_PrWiaF"
 
@@ -13,6 +14,7 @@ development:
   adapter: postgresql
   database: dckquljv9bn6c6
   host: ec2-54-83-52-71.compute-1.amazonaws.com
+  port: 5432
   username: jgrdbcszbfnufy
   password: "t5ANgD2PzAlm6lTrzOu_PrWiaF"
 
@@ -23,6 +25,7 @@ test:
   adapter: postgresql
   database: dckquljv9bn6c6
   host: ec2-54-83-52-71.compute-1.amazonaws.com
+  port: 5432
   username: jgrdbcszbfnufy
   password: "t5ANgD2PzAlm6lTrzOu_PrWiaF"
 
