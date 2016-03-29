@@ -15,6 +15,8 @@ gem "actionpack-action_caching"
 gem "actionpack-xml_parser"
 gem "roadie-rails"
 
+ruby '2.2.2', :engine => 'jruby', :engine_version => '9.0.0.0'
+
 # Request at least nokogiri 1.6.7.2 because of security advisories
 gem "nokogiri", ">= 1.6.7.2"
 
